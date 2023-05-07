@@ -8,7 +8,7 @@ function fibonacci(num) {
     for (let i = 2; i <= num; i++) {
       fib[i] = fib[i-1] + fib[i-2];
     }
-    return fib[num];
+    return fib[num-1];
   }// your code here
 }
 
